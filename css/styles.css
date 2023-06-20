@@ -1,0 +1,213 @@
+/*########################################## HTML ELEMENTS ######################################################### */
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #66BFBF;
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+}
+
+hr{
+    width: 5%;
+    margin: 80px auto 80px auto;
+    color: #EAF6F6;
+    border-style: none;
+    border-top: 8px dotted;
+}
+
+td{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*########################################## TOP CONTAINER ######################################################### */
+.top-container{
+    background-color: #B9F3E4;
+    position: relative;
+    padding-top: 100px;
+    height: 842px;
+}
+
+.top-h2{
+    margin-bottom: 0px;
+}
+
+.ocean-img{
+    max-width: 100%;
+    position: relative;
+    bottom: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 30%;
+    top: 10%;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 25%;
+    bottom: 60%;
+}
+/*######################################### MIDDLE CONTAINER ####################################################### */
+.middle-container{
+    background-color: #AAE3E2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.man-img{
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    width: 200px;
+}
+
+.timeline{
+    display: flex;
+}
+
+.education{
+    flex: 1;
+    width: 50%;
+    border-right: 1px solid #66BFBF;
+    margin: 10px auto 10px 10px;
+    text-align: center;
+}
+
+.experience{
+    width: 50%;
+    border-left: 1px solid #66BFBF;
+    margin: 10px 10px 10px auto;
+    text-align: center;
+}
+
+.skills-hobbies{
+    display: flex;
+}
+
+.skills{
+    flex: 1;
+    width: 50%;
+    border-right: 1px solid #66BFBF;
+    margin: 10px auto 10px 10px;
+    text-align: center;
+
+}
+
+.computer-img{
+    width: 20%;
+    float: left;
+    position: relative;
+    bottom: 25px;
+    margin-right: 30px;
+    margin-left: 150px;
+}
+
+.language-table{
+    position: relative;
+    left: 130px;
+    top: 70px;
+}
+
+.language-img{
+    width: 18%;
+    float: right;
+    position: relative;
+    bottom: -50px;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.hobbies{
+    width: 50%;
+    border-left: 1px solid #66BFBF;
+    margin: 10px 10px 10px auto;
+    text-align: center;
+}
+
+.contact-h3{
+    position: relative;
+    bottom: 38px;
+}
+
+.contact-p{
+    position: relative;
+    bottom: 30px;
+}
+
+.btn{
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  bottom: 0;
+}
+
+.btn:hover{
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/*######################################### BOTTOM CONTAINER ####################################################### */
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 40px
+}
+
+.footer-link{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #EAF6F6;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
